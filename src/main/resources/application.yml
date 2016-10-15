@@ -1,0 +1,11 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/smrafael/config-server-data
+          searchPaths: ConfigData
+
+server:
+  port: 8001
